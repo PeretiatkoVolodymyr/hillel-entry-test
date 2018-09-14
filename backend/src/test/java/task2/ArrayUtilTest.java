@@ -1,6 +1,5 @@
 package task2;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -36,7 +35,7 @@ public class ArrayUtilTest {
     @Test
     public void fromArrayToCollection() {
 
-        ArrayUtil.fromArrayToCollection(array, list);
+        ArrayUtil.fromArrayToList(array, list);
         assertEquals(expected, list);
 
     }
