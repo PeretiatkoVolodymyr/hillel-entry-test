@@ -32,7 +32,7 @@ public class UtilsTest {
         String exp[] = {"A", "B", "C"};
         List<String> expected = Arrays.asList(exp);
 
-        String act[] = {"A", "A", "B", "C", "C", "C"};
+        String act[] = {"A", "A", "B", "C", "C", "C", "A", "B"};
         List<String> actual = Arrays.asList(act);
 
         actual = Utils.removeDuplicateElements(actual);
